@@ -1,0 +1,313 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 4%;
+    border-top: 3px solid #459bc9;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+p {
+    color: #575555;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+small {
+    font-size: 19px;
+    font-weight: bold;
+    opacity: .4;
+    margin-bottom: 100px;
+}
+
+.main {
+    background-image: url(images/img-bg-1.jpg);
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+.carousel {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.more {
+    color: #459bc9;
+}
+
+.navbar {
+    padding-top: 10;
+    padding-bottom: 0;
+}
+
+.nav-link {
+    color: whitesmoke;
+    margin-right: 20px ;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: 600;
+}
+
+.mb-logo {
+    width: 140px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.first-section {
+    /* text-align: center; */
+    color: white;
+    height: 70%;
+    padding-top: 70px;
+}
+
+.first-section > p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.font-styling {
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 10px;
+}
+
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+.playstore > img {
+    margin: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.second-section {
+    /* text-align: center; */
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ss-main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.ss-div {
+    padding: 5px; 
+}
+
+.ss-i {
+    padding-top: 9px;
+}
+
+.hiw-inner-container {
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+}
+
+.hiw-div {
+    padding: 15px;
+}
+
+.sending-link {
+    background-color: #323a45;
+    color: white;
+    padding: 4%;
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input { 
+    width:60%;
+
+}
+
+.send-link-btn {
+    background-color: #459bc9;
+    color: white;
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.wm-div {
+    padding: 20px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.wm-div > p {
+    text-align: justify;
+}
+
+.wm-btn {
+    font-size: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.third-section > .row {
+    margin: 80px;
+}
+
+.fa-mobile-alt {
+    padding-left: 10px;
+}
+
+.input-styling {
+    border: 0;
+    border-bottom: 1px solid #d1cdcd;
+    background-color:  #323a45;
+}
+
+.third-section {
+    background-color: white;
+}
+
+.fourth-section {
+    background-color: white;
+}
+
+.fifth-section {
+    background-color: white;
+}
+
+.wwd-btn {
+    border: 1px solid #cfcfcf;
+    border-radius: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    width: 10%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.long-btn {
+    width: 15%;
+}
+
+.sixth-section {
+    background-color:white;
+    margin-top: 70px;
+}
+
+.au-div {
+    text-align: justify;
+}
+
+.pad-div {
+    padding: 20px ;
+    padding-top: 0;
+
+}
+
+.mail {
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+
+.seventh-section {
+    background-color: white;
+}
+
+.eighth-section {
+    background-color: white;
+}
+
+.ninth-section {
+    background-color: white;
+    text-align: start;
+} 
+ 
+.before-footer {
+    width: 100%;
+    border-top: 1px solid #d6d5d5;
+}
+
+@media (max-width:1200px){
+    .navbar {
+        background-color: white;
+    }
+    .navbar-collapse {
+        background-color: #272626;
+        text-align: start;
+        padding-left: 10px;
+    }
+    
+}
+
+.fab {
+    border: 1px solid #a3a2a2;
+    opacity: 0.5;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.test-par {
+    border: 1px solid #f3f8fa;
+    border-radius: 5px;
+    padding: 13px;
+    text-align: start;
+    background-color: #f3f8fa;
+}
+
+.carousel-div {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    
+}
+
+.quote {
+    margin-left: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.col-lg-2 {
+    text-align: end;
+}
